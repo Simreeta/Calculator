@@ -1,0 +1,109 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>SRMDSC Survey Form</title>
+</head>
+<body>
+ <form>
+  <table>
+   <caption>SRMDSC Survey Form</caption>
+   <tr>
+    <td>Name :</td>
+    <td><input type="text" placeholder="name"></td>
+   </tr>
+   <tr>
+    <td>Registration Number :</td>
+    <td><input type="registration number" placeholder="registration number"></td>
+   </tr>
+   <tr>
+    <td>Gender :</td>
+    <td>
+     <input type="radio" name="Gender"> Male
+     <input type="radio" name="Gender"> Female
+    </td>
+   </tr>
+   
+   <tr>
+    <td>Email :</td>
+    <td><input type="email" placeholder="email"></td>
+   </tr>
+   <tr>
+    <td>Year :</td>
+    <td><input type="year" placeholder="year"></td>
+   </tr>
+   <tr>
+    <td>Department :</td>
+    <td><input type="department" placeholder="department"></td>
+   </tr>
+   <tr>
+    <td>Phone no :</td>
+    <td>
+     <select>
+      <option>91</option>
+      <option>1</option>
+      <option>0</option>
+     </select>
+     <input type="phone">
+    </td>
+   </tr>
+   <tr>
+    <td>Member of DSC :</td>
+    <td>
+     <input type="radio" name="Member of DSC"> Yes
+     <input type="radio" name="Member of DSC"> No
+    </td>
+   </tr>
+   <tr>
+    <td>Love_Coding :</td>
+    <td>
+     <input type="radio" name="Love_Coding"> Yes
+     <input type="radio" name="Love_Coding"> No
+    </td>
+   </tr>
+   <tr>
+    <td>Level of competitive coding :</td>
+    <td>
+     <input type="radio" name="Level of competitive coding"> Beginner
+     <input type="radio" name="Level of competitive coding"> Intermediate
+     <input type="radio" name="Level of competitive coding"> Advanced
+    </td>
+   </tr>
+   <tr>
+    <td>Web Development :</td>
+    <td>
+     <select>
+      <option>Beginner</option>
+      <option>Intermediate</option>
+      <option>Advanced</option>
+      <option>Not Interested</option>
+     </select>
+    </td>
+   </tr>
+   <tr>
+    <td>Game Development :</td>
+    <td>
+     <select>
+      <option>Beginner</option>
+      <option>Intermediate</option>
+      <option>Advanced</option>
+      <option>Not Interested</option>
+     </select>
+    </td>
+   </tr>
+   <tr>
+    <td>App Development :</td>
+    <td>
+     <select>
+      <option>Beginner</option>
+      <option>Intermediate</option>
+      <option>Advanced</option>
+     </select>
+    </td>
+   </tr>
+   <tr>
+    <td><input type="submit" value="Submit"></td>
+   </tr>
+  </table>
+ </form>
+</body>
+</html>
